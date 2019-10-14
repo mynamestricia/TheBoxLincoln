@@ -1,0 +1,54 @@
+body {
+  background-color: gray;
+  color: white;
+    font-family: 'Arial Narrow', sans-serif;
+}
+
+a {
+	color: blanchedAlmond;
+}
+
+a:active {
+	color: chartreuse;
+}
+
+header {
+  text-align: center;
+  margin-top: 5px;
+}
+
+h1 {
+  font-size: 108px;
+  text-align: center;
+  color: blanchedAlmond;
+  text-transform: lowercase;
+
+}
+
+
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
+  background-color: gray;
+  z-index: 5;
+}
+
+.social {
+	align-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  height: 800px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
